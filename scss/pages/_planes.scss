@@ -1,0 +1,54 @@
+.frente-planes {
+    background-color: rgba(0, 162, 255, 0.459);
+    color: white;
+    &-lista {
+        padding: 10px;
+        text-align: start;
+    }
+}
+.fuente1 {
+    background-color: blue;
+    text-align: start;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    border: 1px solid;
+}
+.fuente2 {
+    @extend.fuente1;
+}
+.fuente3 {
+  @extend.fuente1;
+}
+.ventas {
+    text-align: center;
+}
+.planes-imagenes {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+&-3 {
+    grid-row: 1/3;
+    img {
+        height: 100%;
+    }
+}
+
+}
+@media(max-width: 480px) {
+    .planes-imagenes {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: cover;
+        gap: 20px;
+        justify-items: center;
+    }
+}
+
+
+
+.parrafo-footer {
+    background-color: $color-legales;
+    text-align: left;} 
