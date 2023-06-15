@@ -25,6 +25,7 @@ h1 {
   margin-bottom: 10px;
   margin-top: 10px;
   font-size: 2.5rem;
+  text-shadow: 5px 5px 5px white;
 }
 
 h2,
@@ -124,10 +125,10 @@ h3, h4 {
 
 .caja--position {
   display: flex;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   right: 30px;
   object-fit: cover;
 }
@@ -135,6 +136,8 @@ h3, h4 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  box-shadow: 5px 5px 5px green;
+  filter: drop-shadow(5px 5px 5px green);
 }
 
 .fondo_imagen_footer {
@@ -336,6 +339,14 @@ h3, h4 {
   padding-bottom: 5px;
   font-family: sans-serif;
   border: 1px solid;
+}
+
+.fuente2 {
+  text-align: center;
+}
+
+.fuente3 {
+  text-align: end;
 }
 
 .ventas {

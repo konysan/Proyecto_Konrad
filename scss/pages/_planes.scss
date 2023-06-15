@@ -15,9 +15,12 @@
 }
 .fuente2 {
     @extend.fuente1;
+    text-align: center;
 }
 .fuente3 {
-  @extend.fuente1;
+    @extend.fuente1;
+    text-align: end;
+    
 }
 .ventas {
     text-align: center;
