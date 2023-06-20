@@ -1,6 +1,6 @@
 .fondo_imagen {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: auto;
     height: auto;
@@ -8,34 +8,47 @@
     background-size: cover;
     border-style: groove;
     border-color: $color-borde-h1;
-    padding-left: 50px;
+    padding-left: 10px;
+    gap: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
 
     img {
-        width: 50%;
-        height: 100%;
+        width: 60vh;
+        height: 30vh;
         object-fit: cover;
-
+    }
+}
+@media(max-width: 800px) {
+    .img_medusa {
+        display: none;
+        
     }
 }
 
+
 .oferta_1 {
     width: auto;
-    height: 70vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    object-fit: cover;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
 
     img {
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
 }
 
 .combo {
     display: flex;
     width: auto;
-    height: 50vh;
+    height: 60vh;
     justify-content: center;
     align-items: center;
 

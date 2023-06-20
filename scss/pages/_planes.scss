@@ -39,7 +39,14 @@
 }
 
 }
-@media(max-width: 480px) {
+.ventas{
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 5px white;
+    background-color: $color-principal;
+}
+
+@media(max-width: 886px) {
     .planes-imagenes {
         display: grid;
         grid-template-columns: 1fr;

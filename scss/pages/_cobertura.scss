@@ -49,12 +49,19 @@
     background-color:$color-principal;
 }
 
-@media(max-width:480px) {
+@media(max-width:880px) {
+
     .card {
         width: 380px;
+        height: auto;
     }
-
-    .caja img {
+    .caja_img_2{
         display: none;
     }
+    .caja{
+        display: flex;
+    justify-content: center;
+    }
 }
+
+   

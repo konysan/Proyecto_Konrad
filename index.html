@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@1,500&family=Roboto:ital,wght@1,100;1,300&family=Sigmar&display=swap"
         rel="stylesheet">
@@ -25,33 +26,22 @@
         <ul class="nav_pag">
 
             <li><a href="./paginas/planes.html">PLANES</a></li>
-
             <li><a href="./paginas/ofertas.html">OFERTAS</a></li>
-
             <li><a href="./paginas/cobertura.html">COBERTURA</a></li>
-
             <li><a href="./paginas/Quienes_somos.html">QUIENES SOMOS</a></li>
-
-
-
         </ul>
-
-
     </nav>
-
-
+<hr>
 
     <Main class="main_padre">
         <div class="fondo_imagen">
-            <span><img src="./Imagenes/medusaping.png" alt=""></span>
+            <span><img data-aos="flip-up"class="img_medusa"src="./Imagenes/medusaping.png" alt=""></span>
             <img src="./Imagenes/medusa1.jpg" alt="logo">
-            <span><img src="./Imagenes/medusaping.png" alt=""></span>
+            <span><img data-aos="flip-up" class="img_medusa" src="./Imagenes/medusaping.png" alt=""></span>
         </div>
-
 
         <h2>Oferta</h2>
         <div class="oferta_1">
-            
             <img src="./Imagenes/images (4).jpg" alt="oferta2">
             <img src="./Imagenes/images (3).jpg" alt="oferta3">
         </div>
@@ -83,11 +73,7 @@
                 <input type="submit" value="enviar" class="btn">
                 <input type="reset" value="limpiar Formulario" class="btn">
                 </div>
-
-
             </form>
-
-
         </section>
 
     </Main>
@@ -101,7 +87,6 @@
                 <img src="./Imagenes/descarga (1).png" alt="">
             </div>
 
-
         </section>
         <div class="fondo_imagen_footer_text">
             <span>Avisos Legales Defensa de las y los Consumidores Ente Nacional de Comunicaciones Centro de privacidad
@@ -112,7 +97,10 @@
                 clave fiscal</span>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
